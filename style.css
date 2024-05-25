@@ -123,3 +123,30 @@ nav a:hover {
     color: #ff0202;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+/* ... (rest of the CSS remains the same) */
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    section {
+        margin-bottom: 10px;
+    }
+    img {
+        height: 150px;
+    }
+    /* Add these new rules */
+    nav {
+        padding: 1px;
+        font-size: 14px;
+    }
+    nav li {
+        padding: 5px;
+        margin: 5px;
+        border-radius: 3px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+}
